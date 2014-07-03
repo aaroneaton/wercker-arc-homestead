@@ -14,4 +14,4 @@ packages:
   - php@5.5
   - composer
 script: |
-  sudo chmod 777 /usr/local/bin/composer
+  sudo composer self-update
