@@ -1,0 +1,17 @@
+name: homestead
+version: 0.0.1
+inherits: ruudk/php55@0.0.59
+type: main
+platform: ubuntu@14.04
+description: wercker box for laravel homestead / php 5.5
+keywords:
+  - php
+  - php55
+  - mysql
+  - postgresql
+  - laravel
+packages:
+  - php@5.5
+  - composer
+script: |
+  sudo chmod 777 /usr/local/bin/composer
