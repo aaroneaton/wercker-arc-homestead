@@ -16,8 +16,7 @@ packages:
 script: |
   sudo apt-get update -y
   sudo composer self-update
-  sudo hostname homestead
-  sudo apt-get install -y nodejs npm build-essential git-core phantomjs
+  sudo apt-get install -y nodejs build-essential git-core phantomjs
   npm install -g gulp
   npm install -g grunt-cli
   npm install -g karma-cli
