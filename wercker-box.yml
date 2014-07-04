@@ -12,7 +12,13 @@ keywords:
   - laravel
 packages:
   - php@5.5
+  - phpunit
   - composer
+  - node
+  - gulp
+  - grunt
+  - karma
+  - protractor
 script: |
   sudo apt-get update -y
   sudo composer self-update
