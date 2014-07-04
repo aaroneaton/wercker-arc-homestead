@@ -1,5 +1,5 @@
 name: homestead
-version: 0.0.1
+version: 0.0.2
 inherits: ruudk/php55@0.0.59
 type: main
 platform: ubuntu@14.04
@@ -20,3 +20,4 @@ script: |
   npm install -g gulp
   npm install -g grunt-cli
   npm install -g karma-cli
+  npm install -g protractor
